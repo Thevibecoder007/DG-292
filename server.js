@@ -3,7 +3,7 @@ const url = require('url');
 const crypto = require('crypto'); // Added to generate realistic dynamic headers
 
 const PORT = process.env.PORT || 3000;
-const VALID_API_KEY = 'TEV-01-6a89f2d4e1b57c938a20f9e7d6c4b1a0';
+const VALID_API_KEY = 'DG-292-8f7c4a91b3e6d205a9c84f12';
 
 // Converts text into uppercase Hex Entities (e.g., 'H' -> '&#X48;')
 function textToHexEntities(str) {
