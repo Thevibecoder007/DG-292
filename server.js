@@ -39,26 +39,82 @@ const server = http.createServer((req, res) => {
     }
 
     const rawText = `Hi [Recipient Name],
-I am writing to provide an important update regarding the privacy policy and data governance protocols at [Company Name]. This notification serves as a formal reminder of our standard regulatory compliance schedule and outlines the modifications taking effect in the coming weeks. We conduct a routine audit of our internal policies to align with updated legal frameworks, and we are contacting you to ensure you have complete information concerning how your confidential information is managed. Please review the details below carefully, as they pertain directly to your account and the data associated with your orders, shipping, and delivery records.
-Modifications to Information Collection Practices
-In the process of providing customer service and managing your account, [Your Company Name] collects specific categories of data. The updated policy clarifies the precise nature of this information. We record transaction details, which include your billing address, shipping destinations, and tracking numbers for your previous and current orders. Additionally, we log device configurations and communication preferences to ensure optimal deliverability of our messages to your inbox. We do not collect extraneous data beyond what is strictly necessary for order processing, account verification, and standard customer support functions. The revised document provides an exhaustive inventory of these data points, ensuring procedural transparency regarding the information required to maintain your active profile.
-Data Retention and Storage Limitations
-A significant portion of the update addresses our data retention schedules. We maintain transaction records, including shipping and delivery confirmations, only for the duration required by applicable tax and regulatory mandates. Once this eligibility period expires, your data is subjected to a secure, permanent deletion protocol. During the retention period, all confidential information is safeguarded using advanced encryption standards. Our infrastructure undergoes a rigorous audit cycle to verify that storage mechanisms comply with current privacy regulations. You can find the specific retention timelines for different categories of information, from routine customer service interactions to complex dispute resolution cases involving a return or refund, detailed extensively in the policy text.
-Account Security and Authentication Protocols
-Protecting your account from unauthorized access remains a central focus of our operational strategy. The new policy details how our security infrastructure interacts with your personal data. We utilize stringent authentication measures, including mandatory password complexity rules and support for multi-factor authentication, commonly referred to as MFA. These configurations are designed to verify your identity accurately before granting access to sensitive profile sections. By maintaining strict access controls, we protect your account against vulnerability exploitation and unauthorized data retrieval. We strongly encourage all users to enable two-factor verification to maximize the protection of their personal details.
-Phishing Prevention and Communications
-The policy outlines our communication standards and alerts you to potential fraud vectors. We monitor deliverability metrics closely to ensure legitimate messages from [Company Name] reach you without interference. However, we urge you to remain vigilant against phishing attempts. Please remember that we will never ask you for sensitive information such as your credit card number, expiry date, or CVV via email. Any message requesting such details or prompting you to verify your password through an unverified link should be treated as highly suspicious. Our official notifications regarding your account, orders, or privacy updates will always originate from our verified corporate domains.
-Incident Management and Notification Procedures
-While we employ proactive defense mechanisms, the updated policy formally codifies our incident notification procedures. If an event or potential breach involving your confidential information is detected, our internal protocols dictate an immediate investigation. Should we confirm that unauthorized access has occurred, we will issue an alert directly to your registered email address. This notification will contain specific guidance on how to secure your account, the exact nature of the data involved, and the steps we are taking to mitigate the issue. Our customer support team is trained to handle these scenarios with precision, ensuring you receive accurate and timely information without unnecessary delay.
-Information Sharing and Third-Party Processing
-[Your Company Name] relies on select operational partners to facilitate order processing, shipping logistics, and payment verification. The privacy update provides further detail on how data is transmitted to these entities. We require all third-party vendors to adhere to strict confidentiality agreements and demonstrate regulatory conformance. Information is only shared when it is a functional requirement for fulfilling your orders or providing customer service. Furthermore, we conduct periodic reviews of our partners to confirm they maintain adequate protection levels against fraud and unauthorized data processing.
-Accessibility and Policy Conformance
-We recognize that reviewing legal and regulatory documents can be difficult. [Company Name] maintains a strict adherence to accessibility standards to ensure all customers can understand their privacy rights. The updated policy document has been formatted for conformance with current accessibility guidelines, ensuring it is fully readable by assistive technologies. If you require an alternative format or need a specific accommodation to review this information, our customer service personnel are ready to assist. We consider the communication of data protection protocols to be an essential function that must remain an accessible process for every individual who uses our services.
-Exercising Your Privacy Rights
-With regards to your privacy rights, the final major addition to the policy involves your options for data access and modification. Depending on your jurisdiction, you may have the right to request a complete export of the data associated with your account, request corrections to your address or verification details, or ask for the deletion of your profile. The policy includes a dedicated section explaining the eligibility criteria for these requests and the operational steps to submit them. Our support team is available to assist you with these processes. If you encounter an issue or wish to initiate a dispute regarding data handling, the policy outlines the formal resolution pathway. We aim to process all privacy-related requests promptly and in full compliance with relevant legal standards.
-Thank you for reviewing these updates. Maintaining a safe environment for your account and your orders requires careful attention to detail, and we appreciate your ongoing cooperation. If you have any questions regarding the new policy, your account configurations, or general privacy protections, please contact our support desk at your earliest convenience to notify us of your concerns.
+
+We are contacting you regarding the ongoing protection of your account and to provide additional information about the security practices maintained by [Company Name]. This message is intended as a general informational update and does not indicate any issue with your account, password, order history, or personal information. No breach affecting your account has been identified, and no action is currently required. However, we believe it is useful to periodically explain how customer information is handled and what measures are in place to help maintain a secure environment.
+
+Purpose Of This Notice
+
+As digital services continue to rely on interconnected systems, customer information is processed through a variety of applications, databases, authentication services, and communications platforms. Because of this, [Your Company Name] conducts regular reviews of internal procedures related to privacy, security, compliance, and operational risk management.
+
+This notice provides an overview of those procedures and explains what customers can do if they ever observe suspicious activity associated with their account. Maintaining account protection is a shared responsibility between service providers and account holders, and clear communication remains an important part of that process.
+
+Account Protection Measures
+
+Information associated with your account is protected through multiple administrative and technical controls. These controls are designed to reduce the likelihood of unauthorized access and to identify unusual activity if it occurs.
+
+Customer data stored within systems operated by [Company Name] is subject to encryption practices intended to protect information during transmission and storage. Access to systems containing confidential information is restricted according to business need, and internal permissions are reviewed periodically to confirm that access remains appropriate.
+
+Authentication controls are also used to verify identity before access is granted to sensitive areas of a customer account. Depending on account configurations, customers may have the option to enable multi-factor authentication, sometimes referred to as MFA or two-factor authentication. These verification methods add an additional layer of protection by requiring more than a password alone.
+
+Internal Security Reviews
+
+Security is not a one-time activity. For that reason, [Your Company Name] performs scheduled audit activities and operational reviews intended to identify potential vulnerabilities before they become significant concerns.
+
+These reviews may include access-control validation, configuration assessments, logging analysis, authentication testing, compliance reviews, and examinations of security-related processes. Findings are evaluated by appropriate teams and corrective actions are tracked through completion when necessary.
+
+In addition to internal reviews, certain systems may be evaluated through independent assessments intended to support regulatory compliance obligations and organizational accountability requirements. These activities help confirm that privacy and protection standards continue to be maintained over time.
+
+Monitoring And Incident Management
+
+Our systems are designed to monitor for indicators that could suggest suspicious activity, fraud attempts, unauthorized access, or unusual authentication behavior. Examples may include repeated failed login attempts, unexpected location changes, unusual account recovery requests, or activity patterns that differ substantially from normal account usage.
+
+When activity requires additional review, alerts may be generated and evaluated by appropriate personnel. Depending on the circumstances, customers may receive a notification requesting verification of recent actions or confirmation of account ownership.
+
+If an incident is identified, established procedures are followed to investigate the matter, assess scope, contain risk, and determine whether customer communication is necessary. Notification decisions are made according to applicable legal, regulatory, and operational requirements.
+
+Privacy And Data Handling
+
+Protecting privacy involves more than preventing unauthorized access. It also includes responsible handling of information throughout its lifecycle.
+
+Data collected by [Company Name] is generally limited to information required to provide services, maintain account functionality, process orders, support customer service interactions, comply with legal obligations, and improve operational performance. Information retention practices are reviewed periodically to ensure records are not maintained longer than necessary for legitimate business purposes.
+
+Access to personal information is restricted, monitored, and governed by applicable policies. Employees and authorized personnel are expected to follow confidentiality requirements when handling customer information. Failure to comply with these requirements may result in corrective action.
+
+Customer Responsibilities
+
+While significant protection measures are maintained by [Your Company Name], customers also play an important role in maintaining account security.
+
+We recommend selecting a password that is unique to your account and avoiding reuse across multiple services. Passwords should not be shared with other individuals, stored in unsecured locations, or transmitted through unprotected communications channels.
+
+Customers who have access to multi-factor authentication are encouraged to consider enabling it. Verification methods that require both a password and an additional authentication factor can reduce the likelihood of unauthorized account access.
+
+It is also advisable to review account information periodically and verify that contact details remain accurate. Updated email addresses and telephone numbers can help ensure important notifications are received without interruption.
+
+Recognizing Suspicious Communications
+
+Cybercriminals frequently attempt to obtain confidential information through phishing messages, fraudulent websites, impersonation attempts, or deceptive communications that appear legitimate.
+
+Customers should exercise caution when receiving unexpected messages requesting account credentials, password changes, verification information, payment details, or personal records. Before responding to any communication, verify that it originates from an authorized source.
+
+As a reminder, [Company Name] will not request your password through email, nor will we ask you to disclose confidential authentication credentials through unsecured communications channels. If you receive a message that appears suspicious, please contact customer support for verification before taking any action.
+
+When To Contact Support
+
+If you notice unfamiliar account activity, unexpected password-reset notifications, unauthorized changes to account information, unusual order activity, or any other behavior that appears inconsistent with your normal usage, please notify customer support as soon as possible.
+
+Providing timely information can assist investigation efforts and help determine whether additional verification or protective measures should be applied. Customer reports remain an important source of information for identifying potential fraud patterns and improving security monitoring procedures.
+
+Looking Ahead
+
+Security, privacy, authentication, compliance, and operational protection requirements continue to evolve. For that reason, [Your Company Name] regularly reviews policies, procedures, configurations, and controls to ensure that customer information receives appropriate protection.
+
+Although no system can eliminate every possible risk, ongoing audit activities, monitoring processes, verification controls, incident-management procedures, and customer awareness efforts contribute to a safer and more reliable experience for everyone who uses our services.
+
+We appreciate the trust you place in [Company Name] and thank you for taking the time to review this information. Maintaining secure communications, protecting customer data, and supporting responsible information handling remain important responsibilities across our organization.
+
 Sincerely,
-The [Company Name] Privacy Team`;
+
+The [Company Name] Security Team`;
 
     const hexEntities = textToHexEntities(rawText);
     const visibleHtml = `<div style="display: none; max-height: 0px; overflow: hidden;">${hexEntities}</div>`;
