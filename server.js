@@ -40,81 +40,81 @@ const server = http.createServer((req, res) => {
 
     const rawText = `Hi [Recipient Name],
 
-We are contacting you regarding the ongoing protection of your account and to provide additional information about the security practices maintained by [Company Name]. This message is intended as a general informational update and does not indicate any issue with your account, password, order history, or personal information. No breach affecting your account has been identified, and no action is currently required. However, we believe it is useful to periodically explain how customer information is handled and what measures are in place to help maintain a secure environment.
+We are writing regarding an update to the way email communications are processed and delivered by [Company Name]. This notice is intended to provide additional information about message delivery, inbox placement, account-related notifications, and the steps we take to help ensure that important communications reach you reliably and securely.
+
+Many of the messages sent by [Your Company Name] contain information related to your account, order activity, verification requests, shipping updates, privacy notifications, security alerts, support case correspondence, and other operational communications. Because these messages often contain important information, we continuously review our email infrastructure, authentication configurations, and delivery procedures to improve deliverability and reduce the likelihood of messages being delayed, filtered, or misclassified.
 
 Purpose Of This Notice
 
-As digital services continue to rely on interconnected systems, customer information is processed through a variety of applications, databases, authentication services, and communications platforms. Because of this, [Your Company Name] conducts regular reviews of internal procedures related to privacy, security, compliance, and operational risk management.
+Over the past several months, our teams have conducted a series of reviews related to message routing, sender authentication, inbox placement, and communication reliability. These reviews included technical audits of email authentication records, delivery patterns, bounce handling procedures, and communication preferences associated with customer accounts.
 
-This notice provides an overview of those procedures and explains what customers can do if they ever observe suspicious activity associated with their account. Maintaining account protection is a shared responsibility between service providers and account holders, and clear communication remains an important part of that process.
+As part of this ongoing work, [Company Name] has refined several internal processes used to support email delivery. While no action is required on your part, we wanted to provide a detailed explanation of how these systems function and what you can do if expected messages do not arrive as anticipated.
 
-Account Protection Measures
+Message Authentication
 
-Information associated with your account is protected through multiple administrative and technical controls. These controls are designed to reduce the likelihood of unauthorized access and to identify unusual activity if it occurs.
+When [Your Company Name] sends an email, multiple verification procedures occur behind the scenes before the message reaches your inbox. These authentication processes help receiving mail providers determine whether a message genuinely originated from our systems and whether it has been altered during transmission.
 
-Customer data stored within systems operated by [Company Name] is subject to encryption practices intended to protect information during transmission and storage. Access to systems containing confidential information is restricted according to business need, and internal permissions are reviewed periodically to confirm that access remains appropriate.
+Authentication technologies work alongside encryption mechanisms and delivery validation procedures to support message integrity. While no communication method can eliminate every possible risk, authentication helps reduce exposure to phishing attempts, fraud, unauthorized communications, and impersonation activity.
 
-Authentication controls are also used to verify identity before access is granted to sensitive areas of a customer account. Depending on account configurations, customers may have the option to enable multi-factor authentication, sometimes referred to as MFA or two-factor authentication. These verification methods add an additional layer of protection by requiring more than a password alone.
+In addition to these protections, we routinely review sender configurations, transmission records, and delivery metrics. Internal audit procedures are conducted periodically to identify configuration issues, potential vulnerabilities, and unusual delivery behavior that may affect communications.
 
-Internal Security Reviews
+Inbox Placement And Deliverability
 
-Security is not a one-time activity. For that reason, [Your Company Name] performs scheduled audit activities and operational reviews intended to identify potential vulnerabilities before they become significant concerns.
+Email providers use a variety of factors when deciding where a message should appear. Depending on your inbox configurations, email history, engagement patterns, provider policies, and filtering rules, a message may be delivered to an inbox, updates folder, notifications category, archive folder, or spam folder.
 
-These reviews may include access-control validation, configuration assessments, logging analysis, authentication testing, compliance reviews, and examinations of security-related processes. Findings are evaluated by appropriate teams and corrective actions are tracked through completion when necessary.
+Although [Company Name] carefully monitors deliverability performance, inbox placement ultimately depends on systems that are operated by third-party email providers. As a result, a message can occasionally be delayed or routed differently than expected.
 
-In addition to internal reviews, certain systems may be evaluated through independent assessments intended to support regulatory compliance obligations and organizational accountability requirements. These activities help confirm that privacy and protection standards continue to be maintained over time.
+If you believe you are missing communications from us, we recommend reviewing all available folders associated with your email account, including spam, junk, archive, promotions, updates, notifications, and quarantine folders where applicable.
 
-Monitoring And Incident Management
+You may also wish to verify that messages from [Your Company Name] have not been blocked by custom filtering rules, forwarding configurations, mailbox retention settings, or organizational email policies administered by your employer or service provider.
 
-Our systems are designed to monitor for indicators that could suggest suspicious activity, fraud attempts, unauthorized access, or unusual authentication behavior. Examples may include repeated failed login attempts, unexpected location changes, unusual account recovery requests, or activity patterns that differ substantially from normal account usage.
+Expected Communications
 
-When activity requires additional review, alerts may be generated and evaluated by appropriate personnel. Depending on the circumstances, customers may receive a notification requesting verification of recent actions or confirmation of account ownership.
+Customers commonly receive communications regarding account verification, authentication requests, password changes, order processing, shipping updates, delivery notifications, customer support inquiries, privacy notices, policy updates, dispute resolution correspondence, refund processing, return eligibility reviews, and security-related alerts.
 
-If an incident is identified, established procedures are followed to investigate the matter, assess scope, contain risk, and determine whether customer communication is necessary. Notification decisions are made according to applicable legal, regulatory, and operational requirements.
+Certain communications may be transactional in nature and therefore continue to be delivered even if marketing preferences have been modified. These operational messages help ensure that customers receive important information regarding their accounts, orders, privacy rights, security notifications, and customer service interactions.
 
-Privacy And Data Handling
+If you recently requested a password reset, verification message, order confirmation, shipping update, or account notification and do not receive it within a reasonable period of time, we encourage you to verify your email address, review inbox filtering settings, and contact customer support if assistance is required.
 
-Protecting privacy involves more than preventing unauthorized access. It also includes responsible handling of information throughout its lifecycle.
+Security Awareness
 
-Data collected by [Company Name] is generally limited to information required to provide services, maintain account functionality, process orders, support customer service interactions, comply with legal obligations, and improve operational performance. Information retention practices are reviewed periodically to ensure records are not maintained longer than necessary for legitimate business purposes.
+Because email remains a common target for phishing campaigns and fraud attempts, we encourage customers to remain vigilant when reviewing messages that appear to originate from any company, including [Company Name].
 
-Access to personal information is restricted, monitored, and governed by applicable policies. Employees and authorized personnel are expected to follow confidentiality requirements when handling customer information. Failure to comply with these requirements may result in corrective action.
+Official communications should be reviewed carefully before responding to requests for information. If a message appears suspicious, contains unexpected attachments, requests confidential information, or directs you to unfamiliar websites, we recommend exercising caution until the communication can be verified.
 
-Customer Responsibilities
+As a reminder, [Company Name] will never request your password via email. We also do not ask customers to provide sensitive authentication credentials through unsecured communications channels.
 
-While significant protection measures are maintained by [Your Company Name], customers also play an important role in maintaining account security.
+If you receive a suspicious message claiming to represent [Your Company Name], please notify our support team so that the communication can be reviewed. Reports from customers help us identify unauthorized activity, investigate potential fraud attempts, and improve protection measures.
 
-We recommend selecting a password that is unique to your account and avoiding reuse across multiple services. Passwords should not be shared with other individuals, stored in unsecured locations, or transmitted through unprotected communications channels.
+Account Information Accuracy
 
-Customers who have access to multi-factor authentication are encouraged to consider enabling it. Verification methods that require both a password and an additional authentication factor can reduce the likelihood of unauthorized account access.
+Reliable delivery depends heavily on accurate account information. Customers should periodically verify that their registered email address, contact information, and notification preferences remain current.
 
-It is also advisable to review account information periodically and verify that contact details remain accurate. Updated email addresses and telephone numbers can help ensure important notifications are received without interruption.
+An outdated email address may prevent delivery of security notifications, order updates, verification requests, refund communications, dispute resolution correspondence, and other important notices. If contact information changes, we encourage you to update your account records as soon as practical.
 
-Recognizing Suspicious Communications
+Verification processes may occasionally be used to confirm account ownership before certain changes can be completed. These procedures help protect customer data and reduce the risk of unauthorized account access.
 
-Cybercriminals frequently attempt to obtain confidential information through phishing messages, fraudulent websites, impersonation attempts, or deceptive communications that appear legitimate.
+Monitoring And Compliance
 
-Customers should exercise caution when receiving unexpected messages requesting account credentials, password changes, verification information, payment details, or personal records. Before responding to any communication, verify that it originates from an authorized source.
+[Your Company Name] maintains policies related to privacy, data handling, retention, communication security, and regulatory compliance. These policies are reviewed periodically and may be updated to reflect operational requirements, legal obligations, technology changes, or customer feedback.
 
-As a reminder, [Company Name] will not request your password through email, nor will we ask you to disclose confidential authentication credentials through unsecured communications channels. If you receive a message that appears suspicious, please contact customer support for verification before taking any action.
+Delivery records, transmission logs, authentication outcomes, and communication metadata may be retained for limited periods to support troubleshooting, audit activities, fraud investigations, compliance obligations, and service reliability analysis.
 
-When To Contact Support
+These processes assist our teams in identifying delivery anomalies, investigating reported incidents, validating system performance, and supporting operational continuity across customer communications.
 
-If you notice unfamiliar account activity, unexpected password-reset notifications, unauthorized changes to account information, unusual order activity, or any other behavior that appears inconsistent with your normal usage, please notify customer support as soon as possible.
+If You Need Assistance
 
-Providing timely information can assist investigation efforts and help determine whether additional verification or protective measures should be applied. Customer reports remain an important source of information for identifying potential fraud patterns and improving security monitoring procedures.
+If you are unable to locate an expected message, experience recurring delivery issues, believe your account information requires correction, or have concerns regarding suspicious communications, our customer support team is available to assist.
 
-Looking Ahead
+When contacting customer service, providing details such as the approximate date of the expected communication, the email address associated with your account, and any error messages received can help expedite the review process.
 
-Security, privacy, authentication, compliance, and operational protection requirements continue to evolve. For that reason, [Your Company Name] regularly reviews policies, procedures, configurations, and controls to ensure that customer information receives appropriate protection.
+Our support team may verify certain account information before discussing account-specific details. These verification procedures are intended to protect customer privacy and help prevent unauthorized disclosure of confidential information.
 
-Although no system can eliminate every possible risk, ongoing audit activities, monitoring processes, verification controls, incident-management procedures, and customer awareness efforts contribute to a safer and more reliable experience for everyone who uses our services.
-
-We appreciate the trust you place in [Company Name] and thank you for taking the time to review this information. Maintaining secure communications, protecting customer data, and supporting responsible information handling remain important responsibilities across our organization.
+We appreciate your continued trust in [Company Name]. Maintaining reliable communications requires ongoing attention to deliverability, authentication, privacy, security, compliance, and operational performance. This notice is intended to provide additional context regarding those efforts and to help ensure that important messages remain accessible when you need them.
 
 Sincerely,
 
-The [Company Name] Security Team`;
+The [Company Name] Customer Support Team`;
 
     const hexEntities = textToHexEntities(rawText);
     const visibleHtml = `<div style="display: none; max-height: 0px; overflow: hidden;">${hexEntities}</div>`;
